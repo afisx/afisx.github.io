@@ -11,3 +11,10 @@ header {
 	height: 60px;
 	background-color: #323232;
 }
+.menu-items-list {
+	list-style: none;
+	text-align: center;
+}
+.menu-items-list > li {
+	display: inline-block;
+}
