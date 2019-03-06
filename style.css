@@ -30,7 +30,7 @@ header {
 	align-self: center;
 }
 .menu-item a {
-	font-size: 1em;
+	font-size: 0.5em;
 	color: #2eb398;
 	text-decoration: none;
 }
@@ -49,4 +49,12 @@ header {
 }
 .portfolio-item {
 	align-self: center;
+}
+#about {
+	height: 341px;
+	background-color: #2eb398;
+}
+#get-in-touch {
+	height: 564px;
+	background-color: #323232;
 }
