@@ -13,9 +13,27 @@ header {
 	background-color: #323232;
 }
 .menu-items-list {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 	text-align: center;
 }
 .menu-items-list > li {
 	display: inline-block;
+}
+.portfolio-container {
+	
+}
+.portfolio-container-row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.portfolio-item {
+	align-self: center;
 }
