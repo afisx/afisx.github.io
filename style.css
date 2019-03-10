@@ -60,7 +60,7 @@ body {
 }
 header {
 	width: 100%;
-	height: 62px;
+	height: 63px;
 	background-color: #323232;
 }
 nav {
@@ -74,7 +74,8 @@ h1 {
 	font-size: 1.88em;
 	font-weight: normal;
 	padding-top: 5px;
-	padding-left: 5px;
+	padding-left: 4px;
+	line-height: 1.0em;
 }
 p {
 	margin: 0;
@@ -88,12 +89,12 @@ input, textarea {
 	background-color: #454545;
 	padding: 12px;
 	margin-bottom: 16px;
+	padding-left: 14px;
 	height: 38px;
 	box-sizing: border-box;
 	font-family: 'Lato', serif;
 	color: #bebebe;
 	font-size: 0.8em;
-	letter-spacing: 0.01em;
 }
 input::placeholder {
 	color: #bebebe;
@@ -102,11 +103,9 @@ input::placeholder {
 }
 input[type="submit"]{
 	width: 90px;
-	right: 20px;
-	bottom: -50px;
-	position: absolute;
 	background-color: #2eb398;
 	cursor: pointer;
+	align-self: flex-end;
 }
 input:required:valid {
 	outline-color: #2eb398;
@@ -142,13 +141,16 @@ ul {
 .menu-item {
 	font-family: 'Lato';
 	align-self: center;
-	width: 90px;
+	width: 40px;
+	box-sizing: border-box;
 }
 .logo {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 35px;
+	padding-right: 35px;
 	padding-top: 10px;
 	position: relative;
+	width: 64px;
+	box-sizing: content-box;
 }
 .header-hex {
 	position: absolute;
@@ -157,19 +159,26 @@ ul {
 	margin-left: -90px !important;
 }
 .menu-item:first-child {
-
+	width: 90px;
+	padding-left: 5px;
 }
 .menu-item:first-child:after {
-	content:".";
-	color: #2eb398;
+	content:"∙";
+	color: #484c5f;
 	padding-left: 9px;
 }
 .menu-item:last-child {
+	width: 90px;
+	padding-right: 5px;
 }
 .menu-item:last-child:before {
-	content:".";
-	color: #2eb398;
-	padding-right: 9px;
+	content:"∙";
+	color: #484c5f;
+	padding-right: 5px;
+	vertical-align: sup;
+}
+.menu-item:nth-child(4) {
+	padding-right: 5px;
 }
 .menu-item a {
 	vertical-align: middle;
@@ -270,6 +279,7 @@ ul {
 	font-size: 1.12em;
 	font-weight: 100;
 	color: #20816d;
+	line-height: 1.4em;
 }
 .about-blog > p{
 	padding-left: 5px;
@@ -336,18 +346,20 @@ ul {
 .get-in-touch-inner > p {
 	font-size: 1.1em;
 	font-weight: 100;
-	line-height: 0.7em;
-	word-spacing: 0.13em;
+	line-height: 0.5em;
+	word-spacing: 0.14em;
 }
 .get-in-touch-form-contacts {
 	display: flex;
 }
 .get-in-touch-inner-form {
 	width: 600px;
-	padding-top: 23px;
+	padding-top: 25px;
 	padding-right: 20px;
 	box-sizing: border-box;
 	position: relative;
+	display: flex;
+	flex-direction: column;
 }
 .get-in-touch-contacts {
 	width: 180px;
@@ -361,7 +373,7 @@ ul {
 	white-space: pre-wrap;
 }
 .get-in-touch-contacts > ul {
-	padding-top: 35px;
+	padding-top: 39px;
 }
 .get-in-touch-contacts a {
 	padding-left: 10px;
