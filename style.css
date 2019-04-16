@@ -63,7 +63,6 @@ body {
 }
 header {
 	width: 100%;
-	background-color: #323232;
 }
 nav {
 	position: relative;
@@ -124,8 +123,7 @@ ul {
 }
 .main-menu-item a {
 	vertical-align: middle;
-	font-size: 0.6em;
-	color: #fff;
+	color: #454545;
 	text-decoration: none;
 }
 .main-menu-item a:hover, .menu-item a:active{
@@ -146,6 +144,14 @@ ul {
 	text-align: center;
 	position: relative;
 	z-index: 100;
+}
+.lang-menu-item a {
+	vertical-align: middle;
+	color: #959595;
+	text-decoration: none;
+}
+.lang-menu-item a:hover, .lang-item a:active{
+	font-weight: bold;
 }
 .sequrity-container {
 	position: relative;
