@@ -112,7 +112,7 @@ ul {
 .main-menu {
 	padding-top: 8px;
 }
-.main-menu-items-list {
+.main-menu-items-list, .lang-menu-items-list, .sign-menu-items-list {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -121,13 +121,16 @@ ul {
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	justify-content: center;
-	height: 40px;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	text-align: center;
 	position: relative;
 	z-index: 100;
+
+}
+.main-menu-items-list {
+	height: 40px;
 }
 .main-menu-item {
 	align-self: center;
@@ -142,21 +145,7 @@ ul {
 	color: #2eb398;
 }
 .lang-menu-items-list {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-align: center;
-	position: relative;
 	color: #959595;
-	z-index: 100;
 }
 .lang-menu-item  {
 	color: #959595;
@@ -177,6 +166,9 @@ ul {
 .lang-menu-item:last-child a {
 	padding-right: 0;
 	padding-left: 10px;
+}
+.sign-menu-items-list {
+	font-weight: bold;
 }
 .active-lang a {
 	font-weight: bold;
