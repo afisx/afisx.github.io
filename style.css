@@ -179,15 +179,23 @@ ul {
 }
 .sign-menu-items-list {
 	height: 40px;
-	font-weight: bold;
-	letter-spacing: 0.8px;
+	font-size: 1.0em;
+	font-family: 'TitilliumWebBold', sans-serif;
+	letter-spacing: 0.5px;
 }
-.sign-menu-items-list:last-child {
+.sign-menu-item:first-child {
 	background-color: #582c7e;
-	padding: 5px 20px;
+	padding: 7px 20px;
 	border-radius: 20px;
 }
-.sign-menu-items-list:last-child a {
+.sign-menu-item:first-child a {
+}
+.sign-menu-item:last-child {
+	background: linear-gradient(135deg, rgba(88,44,126,1) 0%, rgba(88,44,126,1) 35%, rgba(99,120,207,1) 100%);
+	padding: 7px 20px;
+	border-radius: 20px;
+}
+.sign-menu-item:last-child a {
 	color: #fff;
 }
 
