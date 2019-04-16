@@ -33,6 +33,23 @@
 	font-style: normal;
 }
 @font-face{
+	font-family: 'TitilliumWebRegular';
+
+	src: url('../assets/fonts/TitilliumWeb-Regular.eot');
+
+	src: url('../assets/fonts/TitilliumWeb-Regular.eot?iefix') format('eot'),
+
+	url('../assets/fonts/TitilliumWeb-Regular.woff') format('woff'),
+
+	url('../assets/fonts/TitilliumWeb-Regular.ttf') format('truetype'),
+
+	url('../assets/fonts/TitilliumWeb-Regular.svg#webfont') format('svg');
+
+	font-weight: normal;
+
+	font-style: normal;
+}
+@font-face{
 	font-family: 'MavenProBold';
 
 	src: url('../assets/fonts/Mavenprobold.eot');
@@ -135,10 +152,18 @@ ul {
 }
 .main-menu-items-list {
 	height: 40px;
+	font-family: 'TitilliumWebRegular', sans-serif;
+	padding-right: 45px;
 }
 .main-menu-item {
 	align-self: center;
 	box-sizing: border-box;
+	align-self: center;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 7px;
+	letter-spacing: 0.1px;
+	font-weight: 600;
 }
 .main-menu-item a {
 	vertical-align: middle;
@@ -184,19 +209,20 @@ ul {
 	letter-spacing: 0.5px;
 }
 .sign-menu-item:first-child {
-	background-color: #582c7e;
 	padding: 7px 20px;
-	border-radius: 20px;
 }
 .sign-menu-item:first-child a {
 }
 .sign-menu-item:last-child {
-	background: linear-gradient(135deg, rgba(88,44,126,1) 0%, rgba(88,44,126,1) 35%, rgba(99,120,207,1) 100%);
+	background: linear-gradient(150deg, rgba(88,44,126,1) 0%, rgba(88,44,126,1) 20%, rgba(99,120,207,1) 80%, rgba(99,120,207,1) 100%);
 	padding: 7px 20px;
 	border-radius: 20px;
 }
 .sign-menu-item:last-child a {
 	color: #fff;
+}
+.fa-sign-in {
+	color: #582c7e;
 }
 
 /* End Header Section */
