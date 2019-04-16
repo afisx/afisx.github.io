@@ -1,32 +1,32 @@
 @font-face{
-	font-family: 'Lato';
+	font-family: 'TitilliumWeb';
 
-	src: url('../assets/fonts/latoregular.eot');
+	src: url('../assets/fonts/titilliumweb.eot');
 
-	src: url('../assets/fonts/latoregular.eot?iefix') format('eot'),
+	src: url('../assets/fonts/titilliumweb.eot?iefix') format('eot'),
 
-	url('../assets/fonts/latoregular.woff') format('woff'),
+	url('../assets/fonts/titilliumweb.woff') format('woff'),
 
-	url('../assets/fonts/latoregular.ttf') format('truetype'),
+	url('../assets/fonts/titilliumweb.ttf') format('truetype'),
 
-	url('../assets/fonts/latoregular.svg#webfont') format('svg');
+	url('../assets/fonts/titilliumweb.svg#webfont') format('svg');
 
 	font-weight: normal;
 
 	font-style: normal;
 }
 @font-face{
-	font-family: 'MavenProRegular';
+	font-family: 'TitilliumWebBold';
 
-	src: url('../assets/fonts/Mavenproregular.eot');
+	src: url('../assets/fonts/titilliumwebbold.eot');
 
-	src: url('../assets/fonts/Mavenproregular.eot?iefix') format('eot'),
+	src: url('../assets/fonts/titilliumwebbold.eot?iefix') format('eot'),
 
-	url('../assets/fonts/Mavenproregular.woff') format('woff'),
+	url('../assets/fonts/titilliumwebbold.woff') format('woff'),
 
-	url('../assets/fonts/Mavenproregular.ttf') format('truetype'),
+	url('../assets/fonts/titilliumwebbold.ttf') format('truetype'),
 
-	url('../assets/fonts/Mavenproregular.svg#webfont') format('svg');
+	url('../assets/fonts/titilliumwebbold.svg#webfont') format('svg');
 
 	font-weight: normal;
 
@@ -57,7 +57,7 @@ body {
 	min-height: 100%;
 	max-width: 1800px;
 	background-color: #fff;
-	font-family: 'Lato';
+	font-family: 'TitilliumWeb', sans-serif;
 	overflow: hidden;
 	overflow-y: scroll;
 }
@@ -69,7 +69,7 @@ nav {
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
-	font-family: 'MavenProRegular', serif;
+	font-family: 'TitilliumWeb', sans-serif;
 }
 h1 {
 	font-size: 1.88em;
