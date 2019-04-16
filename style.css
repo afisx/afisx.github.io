@@ -109,6 +109,9 @@ ul {
 .logo-header strong {
 	color: #5b4295;
 }
+.main-menu {
+	padding-top: 8px;
+}
 .main-menu-items-list {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -118,6 +121,7 @@ ul {
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	justify-content: center;
+	height: 40px;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -160,9 +164,6 @@ ul {
 .lang-menu-item .active-lang {
 	border-bottom: solid 1px #959595;
 }
-.active-lang a {
-	font-weight: bold;
-}
 .lang-menu-item a {
 	vertical-align: middle;
 	color: #959595;
@@ -176,6 +177,9 @@ ul {
 .lang-menu-item:last-child a {
 	padding-right: 0;
 	padding-left: 10px;
+}
+.active-lang a {
+	font-weight: bold;
 }
 .lang-menu-item a:hover, .lang-item a:active{
 	font-weight: bold;
