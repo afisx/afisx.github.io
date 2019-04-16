@@ -100,6 +100,10 @@ ul {
 	justify-content: space-between;
 	padding: 80px;
 }
+.logo-header {
+	font-size: 1.8em;
+	letter-spacing: 0.55px
+}
 .main-menu-items-list {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -117,7 +121,6 @@ ul {
 	z-index: 100;
 }
 .main-menu-item {
-	font-family: 'Lato';
 	align-self: center;
 	box-sizing: border-box;
 }
@@ -145,10 +148,28 @@ ul {
 	position: relative;
 	z-index: 100;
 }
+.lang-menu-item  {
+	color: #959595;
+}
+.lang-menu-item .active-lang {
+	border-bottom: solid 1px #959595;
+}
+.active-lang a {
+	font-weight: bold;
+}
 .lang-menu-item a {
 	vertical-align: middle;
 	color: #959595;
 	text-decoration: none;
+	padding: 0 10px;
+}
+.lang-menu-item a:first-child {
+	padding-left: 0;
+	padding-right: 10px;
+}
+.lang-menu-item a:last-child {
+	padding-right: 0;
+	padding-left: 10px;
 }
 .lang-menu-item a:hover, .lang-item a:active{
 	font-weight: bold;
