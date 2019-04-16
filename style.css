@@ -69,7 +69,7 @@ nav {
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
-	font-family: 'TitilliumWeb', sans-serif;
+	font-family: 'TitilliumWebBold', sans-serif;
 }
 h1 {
 	font-size: 1.88em;
@@ -98,11 +98,16 @@ ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 80px;
+	padding: 70px 200px;
 }
 .logo-header {
 	font-size: 1.8em;
-	letter-spacing: 0.55px
+	letter-spacing: 0.55px;
+	padding-top: 3px;
+	color: #85868b;
+}
+.logo-header strong {
+	color: #5b4295;
 }
 .main-menu-items-list {
 	display: -webkit-box;
@@ -146,6 +151,7 @@ ul {
 	list-style: none;
 	text-align: center;
 	position: relative;
+	color: #959595;
 	z-index: 100;
 }
 .lang-menu-item  {
@@ -163,11 +169,11 @@ ul {
 	text-decoration: none;
 	padding: 0 10px;
 }
-.lang-menu-item a:first-child {
+.lang-menu-item:first-child a {
 	padding-left: 0;
 	padding-right: 10px;
 }
-.lang-menu-item a:last-child {
+.lang-menu-item:last-child a {
 	padding-right: 0;
 	padding-left: 10px;
 }
