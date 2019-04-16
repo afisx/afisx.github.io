@@ -163,15 +163,22 @@ ul {
 	padding-right: 10px;
 	padding-bottom: 7px;
 	letter-spacing: 0.1px;
-	font-weight: 600;
+	font-weight: 500;
+}
+.main-menu-item:nth-child(2) {
+	padding-right: 11px;
+	letter-spacing: 0.5px;
 }
 .main-menu-item a {
 	vertical-align: middle;
 	color: #454545;
 	text-decoration: none;
 }
-.main-menu-item a:hover, .menu-item a:active{
-	color: #2eb398;
+.main-menu-item a:hover, .menu-item a:active {
+	color: #582c7e;
+}
+.main-menu-item:hover {
+	border-bottom: solid 1px #582c7e;
 }
 .lang-menu-items-list {
 	color: #959595;
@@ -179,7 +186,7 @@ ul {
 .lang-menu-item  {
 	color: #959595;
 }
-.lang-menu-item .active-lang {
+.lang-menu-item.active-lang {
 	border-bottom: solid 1px #959595;
 }
 .lang-menu-item a {
@@ -217,12 +224,16 @@ ul {
 	background: linear-gradient(150deg, rgba(88,44,126,1) 0%, rgba(88,44,126,1) 20%, rgba(99,120,207,1) 80%, rgba(99,120,207,1) 100%);
 	padding: 7px 20px;
 	border-radius: 20px;
+	-webkit-box-shadow: 0px 8px 16px -10px rgba(110,126,184,1);
+	-moz-box-shadow: 0px 8px 16px -10px rgba(110,126,184,1);
+	box-shadow: 0px 8px 16px -10px rgba(110,126,184,1);
 }
 .sign-menu-item:last-child a {
 	color: #fff;
 }
 .fa-sign-in {
 	color: #582c7e;
+	padding-right: 10px;
 }
 
 /* End Header Section */
