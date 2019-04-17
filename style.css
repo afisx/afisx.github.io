@@ -289,7 +289,8 @@ ul {
 	margin-left: 40px;
 	margin-right: 5px;
 	font-size: 1.1em;
-	background: linear-gradient(150deg, rgba(95,47,106,1) 0%, rgba(100,108,146,1) 20%, rgba(100,108,146,1) 80%, rgba(95,47,106,1) 100%);
+	border-radius: 28px;	
+	background: linear-gradient(150deg, rgba(100,108,146,1) 0%, rgba(100,108,146,1) 20%, rgba(95,47,106,1) 80%, rgba(95,47,106,1) 100%);
 	font-family: 'TitilliumWebBold', sans-serif;
 }
 .account-item a { 
@@ -299,13 +300,11 @@ ul {
 	position: relative;
 	width: 46px;
 	height: 46px;
-	margin: 0px;
-	font-size: 1.1em;
+	margin: 5px;
 	border-radius: 23px;
-}
-.store-item:first-child {
 	margin-right: 20px;
 	margin-left: 20px;
+	font-size: 1.1em;
 	background: linear-gradient(150deg, rgba(123,80,126,1) 0%, rgba(123,80,126,1) 20%, rgba(100,108,146,1) 80%, rgba(115,75,130,1) 100%);
 }
 .store-item:last-child {
