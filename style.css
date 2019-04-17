@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	font-family: 'TitilliumWebBold', sans-serif;
 }
-h1 {
+header h1 {
 	font-size: 3.8em;
 	font-weight: normal;
 	padding-top: 5px;
@@ -96,6 +96,15 @@ h1 {
 	text-align: center;
 	position: relative;
 	padding-top: 94px;
+}
+header h3 {
+	position: relative;
+	text-align: center;
+	font-size: 2.25em;
+	padding-top: 6px;
+}
+h3 strong {
+	color: #fc6c6e;
 }
 p {
 	margin: 0;
@@ -122,11 +131,14 @@ ul {
 	justify-content: space-between;
 	padding: 70px 200px;
 }
+.header-center {
+	position: relative;
+}
 .header-logo {
 	font-size: 1.8em;
 	letter-spacing: 0.55px;
 	padding-top: 3px;
-	padding-bottom: 10px;
+	padding-bottom: 11px;
 	color: #85868b;
 }
 .header-logo strong {
@@ -241,6 +253,17 @@ ul {
 .fa-sign-in {
 	color: #582c7e;
 	padding-right: 10px;
+}
+.social-networks-container {
+	position: absolute;
+	right: 0;
+}
+.header-accounts-apps {
+	position: relative;
+	display: flex;
+}
+.acc-item {
+	position: absolute;
 }
 
 /* End Header Section */
