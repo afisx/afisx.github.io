@@ -133,6 +133,7 @@ ul {
 }
 .header-center {
 	position: relative;
+	color: #454545;
 }
 .header-logo {
 	font-size: 1.8em;
@@ -313,6 +314,9 @@ ul {
 	margin-right: 42px;
 	background: linear-gradient(150deg, rgba(95,47,106,1) 0%, rgba(111,75,114,1) 20%, rgba(111,75,114,1) 80%, rgba(98,65,112,1) 100%);
 }
+.store-item img{
+	padding: 13px;
+}
 
 /* End Header Section */
 
@@ -320,6 +324,15 @@ ul {
 
 .sequrity-container {
 	position: relative;
+	padding: 150px;
+	padding-top: 300px;
+	display: flex;
+	flex-direction: row;
+}
+.sequrity-head {
+	position: relative;
+	display: flex;
+	flex-direction: row;
 }
 .portfolio-container-row {
 	position: relative;
@@ -348,8 +361,6 @@ ul {
 /* About Section */
 .about-container {
 	position: relative;
-	background-color: #2eb398;
-	color: #d7fcf5;
 }
 /* End About Section */
 .social-logo {
@@ -382,9 +393,6 @@ ul {
 }
 .blog-container {
 	position: relative;
-	background-color: #323232;
-	height: 564px;
-	color: #e0e0e0;
 }
 .location-logo {
 	padding-left: 2px;
