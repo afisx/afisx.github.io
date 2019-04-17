@@ -122,14 +122,14 @@ ul {
 	justify-content: space-between;
 	padding: 70px 200px;
 }
-.logo-header {
+.header-logo {
 	font-size: 1.8em;
 	letter-spacing: 0.55px;
 	padding-top: 3px;
 	padding-bottom: 10px;
 	color: #85868b;
 }
-.logo-header strong {
+.header-logo strong {
 	color: #5b4295;
 }
 .main-menu {
@@ -190,7 +190,8 @@ ul {
 }
 .lang-menu-item  {
 	color: #959595;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.55px;
+	margin: 0 10px;
 }
 .lang-menu-item.active-lang {
 	border-bottom: solid 1px #959595;
@@ -199,13 +200,13 @@ ul {
 	vertical-align: middle;
 	color: #959595;
 	text-decoration: none;
-	padding: 0 10px;
 }
-.lang-menu-item:first-child a {
+.lang-menu-item:first-child {
 	margin-left: 0;
 	margin-right: 10px;
+	letter-spacing: 1px;
 }
-.lang-menu-item:last-child a {
+.lang-menu-item:last-child {
 	margin-right: 0;
 	margin-left: 10px;
 }
@@ -244,6 +245,8 @@ ul {
 
 /* End Header Section */
 
+/* Security Section */
+
 .sequrity-container {
 	position: relative;
 }
@@ -268,11 +271,16 @@ ul {
 .portfolio-item {
 	align-self: center;
 }
+
+/* End Security Section */
+
+/* About Section */
 .about-container {
 	position: relative;
 	background-color: #2eb398;
 	color: #d7fcf5;
 }
+/* End About Section */
 .social-logo {
 	display: block;
 	filter: grayscale(100%);
