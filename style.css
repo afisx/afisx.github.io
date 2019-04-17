@@ -269,7 +269,7 @@ ul {
 	position: absolute;
 	height: 150px;
 	margin-top: -123px;
-	box-shadow: 0px 45px 60px -50px #5d7ed5;
+	box-shadow: 0px 45px 60px -50px #439cf9;
 	width: 600px;
 }
 .accounts-apps {
@@ -305,7 +305,8 @@ ul {
 	margin-right: 20px;
 	margin-left: 20px;
 	font-size: 1.1em;
-	background: linear-gradient(150deg, rgba(123,80,126,1) 0%, rgba(123,80,126,1) 20%, rgba(100,108,146,1) 80%, rgba(115,75,130,1) 100%);
+	background: linear-gradient(150deg, rgba(123,80,126,1) 0%, rgba(123,80,126,1) 20%, rgba(115,75,130,1) 80%, rgba(115,75,130,1) 100%);
+	box-shadow: 30px 15px 20px -15px #439cf9, -30px 15px 20px -15px #439cf9;
 }
 .store-item:last-child {
 	margin-left: 0px;
