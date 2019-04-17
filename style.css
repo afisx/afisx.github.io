@@ -261,9 +261,33 @@ ul {
 .header-accounts-apps {
 	position: relative;
 	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 66px;
 }
-.acc-item {
+.accounts-apps-overley {
 	position: absolute;
+}
+.accounts-apps {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 66px;
+}
+.account-item {
+	position: relative;
+	color: #fff;
+	padding-top: 13px;
+	margin-right: 15px;
+	font-size: 1.1em;
+}
+.store-item {
+	position: relative;
+	width: 46px;
+	height: 46px;
+	margin: 0px;
+	font-size: 1.1em;
 }
 
 /* End Header Section */
