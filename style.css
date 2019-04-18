@@ -337,11 +337,13 @@ ul {
 	position: relative;
 	padding-top: 40px;
 	padding-left: 8px;
-	margin-right: 18px;
-	width: 33,3%;
+	margin-right: 17px;
+	margin-left: -3px;
+	width: 33.3%;
 }
 .security-item:firs-child {
-
+	margin-left: 0;
+	margin-right: 17px;
 }
 .security-item:last-child {
 
