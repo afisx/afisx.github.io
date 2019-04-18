@@ -72,10 +72,11 @@ body {
 	align-items: center;
 	margin: 0;
 	min-height: 100%;
+	min-width: 1800px;
 	max-width: 1800px;
 	background-color: #fff;
 	font-family: 'TitilliumWeb', sans-serif;
-	overflow: hidden;
+	overflow-x: scroll;
 	overflow-y: scroll;
 }
 header {
@@ -336,37 +337,43 @@ ul {
 .security-item {
 	position: relative;
 	padding-top: 40px;
-	padding-left: 8px;
-	margin-right: 17px;
+    padding-left: 10px;
+    margin-right: 5px;
+    padding-right: 12px;
 	margin-left: -3px;
 	width: 33.3%;
 }
-.security-item:firs-child {
-	margin-left: 0;
-	margin-right: 17px;
+.security-item:first-child {
+	padding-right: 5px;
+    padding-left: 8px;
+    margin-left: 0;
+    margin-right: 10px;
 }
 .security-item:last-child {
-
+    margin-left: 15px;
+    padding-left: 14px
 }
 .security-item:after {
 	content: '';
 	position: absolute;
-	top: -100px;
+	top: 60px;
 	right: 0;
-	height: 230px;
+	height: 435px;
 	border-right: solid 1px #959595;
 }
-.security-item:firs-child:after {
+.security-item:first-child:after {
 	content: '';
-	top: -100px;
+	top: -80px;
 	right: 0;
-	height: 230px;
+	height: 220px;
 }
 .security-item:last-child:after {
 	content: '';
-	top: -100px;
-	right: 0;
-	height: 230px;
+	top: 59px;
+	left: 440px;
+	width: 200px;
+	border-right: 0;
+	border-top: solid 1px #454545;
 }
 .security-head {
 	position: relative;
@@ -418,9 +425,101 @@ ul {
 
 /* About Section */
 .about-container {
-	position: relative;
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.about-header {
+    padding-right: 200px;
+    width: 700px;
+}
+.about-header h2{
+	font-size: 3.9em;
+    font-family: 'TitilliumWeb', sans-serif;
+    font-weight: 300;
+}
+.about-caption {
+	
+}
+.about-button {
+	position: absolute;
+	top: 230px;
+	right: 410px;
+	padding: 18px 35px;
+	border: solid 1px #959595;
+	border-radius: 40px;
 }
 /* End About Section */
+
+
+/* Blog Section */
+.blog-container {
+	padding-top: 100px;
+}
+.blog-partners {
+
+}
+.blog-quote-container {
+	
+}
+.blog-quote-marks {
+	
+}
+.blog-quote {
+	
+}
+/* End Blog Section */
+
+/* Support Section */
+
+.support-container {
+	padding-top: 100px;
+}
+.support-header {
+
+}
+.support-header h3 {
+
+}
+.support-caption {
+	
+}
+.support-apps {
+	
+}
+.support-overlay {
+	
+}
+.support-overlay-background {
+	
+}
+.support-commertial {
+	
+}
+.support-commertial h2 {
+	
+}
+.support-commertial-caption {
+	
+}
+.support-commertial-buttons {
+	
+}
+.support-upgrade-to-payed {
+	
+}
+.support-donate {
+	
+}
+.support-customers {
+	
+}
+.support-customers-inner {
+	
+}
+/* End Support Section */
 .social-logo {
 	display: block;
 	filter: grayscale(100%);
