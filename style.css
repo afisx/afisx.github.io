@@ -325,7 +325,7 @@ ul {
 
 /* Security Section */
 
-.sequrity-container {
+.security-container {
 	position: relative;
 	padding-left: 300px;
 	padding-right: 200px;
@@ -341,22 +341,22 @@ ul {
 .security-item:after {
 	content: '';
 }
-.sequrity-head {
+.security-head {
 	position: relative;
 	display: flex;
 	flex-direction: row;
 }
-.sequrity-headers h3 {
+.security-headers h3 {
 	font-size: 1.9em;
 	padding: 0;
 	font-family: 'TitilliumWeb', sans-serif;
 }
-.sequrity-headers h4 {
+.security-headers h4 {
 	font-size: 1.18em;
 	padding: 0;
 	font-family: 'TitilliumWeb', sans-serif;
 }
-.sequrity-caption {
+.security-caption {
 	font-size: 0.8em;
 	padding: 0;
 	font-family: 'TitilliumWebBold', sans-serif;
