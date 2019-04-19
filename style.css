@@ -436,28 +436,6 @@ ul {
 .security-item:last-child .security-caption {
 	padding-top: 14px;
 }
-.portfolio-container-row {
-	position: relative;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: -60px;
-}
-.portfolio-container-row:first-child{
-	padding-top: 140px;
-}
-.portfolio-container-row:last-child{
-	padding-bottom: 138px;
-}
-.portfolio-item {
-	align-self: center;
-}
-
 /* End Security Section */
 
 /* About Section */
@@ -497,11 +475,12 @@ ul {
 .about-button:before {
 	content: '';
 	position: absolute;
-	width: 300px;
+	width: 975px;
+	right: 331px;
+	top: 29px;
 	border-top: solid 1px #959595;
 }
 /* End About Section */
-
 
 /* Blog Section */
 .blog-container {
@@ -526,6 +505,7 @@ ul {
 }
 .blog-quote-marks div {
 	margin-top: 11px;
+	margin-left: 2px;
 	width: 11px;
 	height: 11px;
 	background: #959595;
@@ -533,6 +513,7 @@ ul {
 }
 .blog-quote-marks div:first-child {
 	margin-top: 0;
+	margin-left: 0;
 	width: 13px;
 	height: 13px;
 	background: #454545;
@@ -553,8 +534,8 @@ ul {
 /* End Blog Section */
 
 /* Support Section */
-
 .support-container {
+	position: relative;
 	padding-top: 100px;
 }
 .support-header {
@@ -570,10 +551,20 @@ ul {
 	
 }
 .support-overlay {
-	
+	position: absolute;
+	right: 270px;
+	top: -178px;
+	transform: skewY(6.5deg);
 }
 .support-overlay-background {
-	
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	height: 550px;
+	-webkit-transform: skewY(353.5deg);
+	-ms-transform: skewY(353.5deg);
+	transform: skewY(353.5deg);
+	background: linear-gradient(205deg, rgba(149,149,149,0.20) 0%, rgba(240,240,240,0.2) 50%, rgba(255,255,255,0) 100%);
 }
 .support-commertial {
 	
