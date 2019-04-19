@@ -536,19 +536,28 @@ ul {
 /* Support Section */
 .support-container {
 	position: relative;
-	padding-top: 100px;
+	padding-top: 90px;
 }
 .support-header {
-
+	padding-left: 600px;
+	padding-right: 680px;
+	width: auto;
+	text-align: right;
 }
 .support-header h3 {
-
+	text-align: right;
+	font-family: 'TitilliumWeb', sans-serif;
+	font-weight: 300;
+	padding-bottom: 9px;
 }
 .support-caption {
-	
+	line-height: 1.4em;
 }
 .support-apps {
-	
+	text-align: center;
+}
+.support-apps a {
+	display: inline-block;
 }
 .support-overlay {
 	position: absolute;
@@ -560,7 +569,7 @@ ul {
 	position: absolute;
 	top: 40px;
 	width: 100%;
-	height: 550px;
+	height: 900px;
 	-webkit-transform: skewY(353.5deg);
 	-ms-transform: skewY(353.5deg);
 	transform: skewY(353.5deg);
