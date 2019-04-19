@@ -512,13 +512,43 @@ ul {
 	padding-left: 21px;
 }
 .blog-quote-container {
-	
+	padding-left: 360px;
+	padding-top: 53px;
+	padding-right: 860px;
+	display: flex;
 }
 .blog-quote-marks {
-	
+	padding-top: 6px;
+	padding-left: 4px;
+	padding-right: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.blog-quote-marks div {
+	margin-top: 11px;
+	width: 11px;
+	height: 11px;
+	background: #959595;
+	border-radius: 5.5px;
+}
+.blog-quote-marks div:first-child {
+	margin-top: 0;
+	width: 13px;
+	height: 13px;
+	background: #454545;
+	border-radius: 6.5px;
 }
 .blog-quote {
 	font-family: 'MalagaOtReGI', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 0.3px;
+	line-height: 1.3em;
+	padding-left: 16px;
+}
+.blog-quote em{
+	display: block;
+	font-size: 0.65em;
+	line-height: 2.3em;
 }
 /* End Blog Section */
 
