@@ -353,7 +353,7 @@ ul {
 	background: linear-gradient(150deg, rgba(95,47,106,1) 0%, rgba(95,47,106,1) 20%, rgba(95,47,106,1) 80%, rgba(95,47,106,1) 100%);
 }
 .account-item:active {
-	margin-top: 3px;
+	top: 3px;
 	box-shadow: 20px 12px 20px -15px #439cf9, -20px 12px 20px -15px #439cf9;
 }
 .account-item a { 
@@ -1025,15 +1025,23 @@ footer {
 		padding-bottom: 150px;
 	}
 	.header-top {
+		padding-left: 100px;
+		padding-right: 100px;
 		padding-bottom: 30px;
+	}
+	.main-menu {
+		flex-direction: column;
+		align-items: flex-end;
+	}
+	.main-menu-items-list {
+		padding-right: 0;
 	}
 	.security-item:last-child:after {
 		width: 0;
 		border: none;
 		top: 0;
 		left: 0;
-	}
-	
+	}	
 	.security-container {
 		padding-left: 150px;
 		padding-right: 100px;
@@ -1097,7 +1105,119 @@ footer {
 	}
 	.section-contacts {
 		padding-left: 50px;
+	}	
+}
+@media only screen and (max-device-width: 1200px) {
+	body {
+		max-width: 1200px;
 	}
-	
-	
+	header h1 {
+		font-size: 2.7em;
+	}
+	header h3 {
+		font-size: 1.5em;
+	}
+	.overlay {
+		padding-bottom: 100px;
+	}
+	.header-top {
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 0;
+	}
+	.social-networks-container {
+		top: 280px;
+	}
+	.social-networks-links {
+		display: flex;
+	}
+	.social-networks-links li {
+		padding-left: 20px; 
+	}
+	.main-menu-items-list {
+		padding-right: 0;
+	}
+	.security-item:first-child:after {
+		top: -15px;
+		height: 170px;
+	}
+	.security-container {
+		padding-left: 150px;
+		padding-right: 100px;
+		padding-top: 50px;
+	}
+	.about-container {
+		padding-bottom: 50px;
+	}
+	.about-header {
+		width: 570px;
+	}
+	.about-header h2 {
+		font-size: 2.4em;
+	}
+	.about-button {
+		top: 175px;
+		right: 193px;
+	}
+	.about-caption {
+		font-size: 1.4em;
+	}
+	.blog-container {
+		width: 100%;
+		padding-bottom: 50px;
+	}
+	.blog-quote-container {
+		padding-left: 80px;
+		padding-right: 520px;
+	}
+	.blog-quote {
+		font-size: 1.2em;
+	}
+	.support-container {
+		width: 100%;
+		padding-top: 0;
+	}
+	.support-header {
+		padding-top: 40px;
+		padding-left: 260px;
+		padding-right: 420px;
+	}
+	.support-header:after {
+		left: 0;
+		width: 100%;
+	}
+	.support-overlay {
+		right: 70px;
+	}
+	.support-overlay-background {
+		top: 0;
+	}
+	.support-apps {
+		padding-left: 112px;
+	}
+	.support-commertial {
+		padding-left: 200px;
+	}
+	.support-commertial:after {
+		width: 100%;
+	}
+	.support-customers {
+		padding-right: 0;
+		text-align: center;
+	}
+	.support-customers-inner {
+		margin: 0;
+	}
+	.support-customers:after {
+		right: 0;
+		height: 0;
+		border: none;
+	}
+	footer {
+		padding-right: 50px;
+	}
+	.section-contacts {
+		padding-left: 50px;
+	}	
 }
